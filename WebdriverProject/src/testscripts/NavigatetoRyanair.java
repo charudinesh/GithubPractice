@@ -10,7 +10,7 @@ public class NavigatetoRyanair {
 		driver.get("https://sit-aem.ryanair.com/gb/en");
 		driver.navigate().forward();
 		driver.navigate().back();
-		driver.quit();
+		
 	}
 
 }
